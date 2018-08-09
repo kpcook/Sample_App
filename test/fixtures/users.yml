@@ -4,3 +4,8 @@ kyle:
   name: Kyle Cook
   email: kpcook7@yahoo.com
   password_digest: <%= User.digest('password') %>
+
+michael:
+  name: Michael Hartl
+  email: example@railstutorial.org
+  password_digest: <%= User.digest('password') %>
